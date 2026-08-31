@@ -1,4 +1,41 @@
-.venv/
+# Python
 __pycache__/
-*.pyc
+*.py[cod]
+*.pyo
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Secrets
 .env
+.env.*
+!.env.example
+
+# Local database / vector store
+chroma_db/
+
+# Local AWR reports
+documents/
+*.awr
+*.txt
+
+# Backups / temporary versions
+*.backup
+*.bak
+*.tmp
+
+# Local development snapshots
+rag.py.*
+app.py.*
+awr_engine.py.*
+
+# Test snapshots / generated variants
+test_*.py.*
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
