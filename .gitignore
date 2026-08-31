@@ -20,6 +20,7 @@ chroma_db/
 documents/
 *.awr
 *.txt
+!requirements.txt
 
 # Backups / temporary versions
 *.backup

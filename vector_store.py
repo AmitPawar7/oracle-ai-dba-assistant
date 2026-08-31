@@ -25,20 +25,6 @@ client = chromadb.PersistentClient(
 )
 
 
-# ============================================================
-# DELETE OLD COLLECTION
-# ============================================================
-
-try:
-
-    client.delete_collection(
-        name=COLLECTION_NAME
-    )
-
-except Exception:
-
-    pass
-
 
 collection = client.get_or_create_collection(
     name=COLLECTION_NAME
