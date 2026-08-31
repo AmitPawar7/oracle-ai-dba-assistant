@@ -5,12 +5,12 @@ from awr_engine import analyze_awr_report
 
 st.set_page_config(
     page_title="Oracle AI DBA Assistant",
-    page_icon="???",
+    page_icon="" ,
     layout="wide",
 )
 
 
-st.title("??? Oracle AI DBA Assistant")
+st.title("Oracle AI DBA Assistant")
 
 st.write(
     "Upload an Oracle AWR report and ask questions "
